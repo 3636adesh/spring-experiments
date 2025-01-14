@@ -1,0 +1,7 @@
+https://github.com/rajadilipkolli/my-spring-boot-experiments
+
+Key Features:
+
+    Wide Range of Integrations: Explore different databases (MySQL, PostgreSQL, MongoDB, Oracle), caching with Redis, and advanced topics like multi-tenancy.
+    Observability & Monitoring: Many samples include Prometheus, Grafana, or Kibana. They demonstrate setting up and analyzing application performance in real time.
+    Scalability & Resilience Patterns: Investigate chaos monkey for injecting controlled failures, or look at multi-database solutions for horizontal scaling.
