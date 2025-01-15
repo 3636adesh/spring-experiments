@@ -15,5 +15,13 @@ pipeline {
                 }
             }
         }
+        stage('Docker Compose') {
+            steps {
+                script {
+                    def dockerComposePath = "${env.WORKSPACE}/rest-docs/docker-compose.yml"
+                    sh "docker-compose -f ${dockerComposePath} up -d"
+                }
+            }
+        }
     }
 }
